@@ -51,8 +51,8 @@ export default function Projects() {
               <h3>TravelEase</h3>
 
               <p style={{ color: "#555", fontSize: "0.9rem" }}>
-                Modern travel landing page for discovering destinations with a
-                clean and responsive design.
+                Web-based system for booking travel packages with a modern and
+                user-friendly interface.
               </p>
 
               <div style={{ display: "flex", gap: "6px", flexWrap: "wrap" }}>
