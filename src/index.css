@@ -571,3 +571,12 @@ footer {
     margin-bottom: 1rem;
   }
 }
+
+.badge {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: #fff;
+  color: var(--muted);
+}
