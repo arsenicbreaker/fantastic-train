@@ -1,4 +1,4 @@
-import laporAir from "../assets/media/lapor-air.png";
+import lwittlepumkiens from "../assets/media/lwittlepumkiens.png";
 import travelease from "../assets/media/travelease.png";
 import learning from "../assets/media/learning.png";
 
@@ -15,29 +15,32 @@ export default function Projects() {
         <div className="grid-cards">
           {/* CARD 1 */}
           <article className="tile">
-            <img className="blog-img" src={laporAir} alt="Lapor Air" />
+            <img
+              className="blog-img"
+              src={lwittlepumkiens}
+              alt="Lwittle Pumkiens"
+            />
 
             <div className="pad">
-              <h3>Lapor Air</h3>
+              <h3>Subscription Marketplace</h3>
 
               <p style={{ color: "#555", fontSize: "0.9rem" }}>
-                Web application for reporting clean water issues in the
-                surrounding environment.
+                Web application that provides a catalog of premium apps and
+                subscription services.
               </p>
 
               <div style={{ display: "flex", gap: "6px", flexWrap: "wrap" }}>
-                <span className="badge">HTML</span>
-                <span className="badge">CSS</span>
-                <span className="badge">JavaScript</span>
+                <span className="badge">TypeScript</span>
+                <span className="badge">NextJS</span>
               </div>
 
               <a
-                href="https://lapor-air.vercel.app/"
+                href="https://github.com/arsenicbreaker/editorial-hero"
                 target="_blank"
                 rel="noreferrer"
               >
                 <button className="btn" style={{ marginTop: "20px" }}>
-                  Live Preview
+                  Check On Github
                 </button>
               </a>
             </div>
