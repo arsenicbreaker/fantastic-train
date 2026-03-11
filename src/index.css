@@ -121,4 +121,37 @@ All colors MUST be HSL.
     opacity: 1;
     transform: translateY(0);
   }
+
+  /* Reusable card hover glow */
+  .card-hover {
+    transition: transform 0.35s cubic-bezier(0.25, 0.1, 0.25, 1),
+                box-shadow 0.35s cubic-bezier(0.25, 0.1, 0.25, 1),
+                border-color 0.3s ease;
+  }
+
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08),
+                0 0 0 1px rgba(0, 0, 0, 0.04);
+  }
+
+  /* Keyword highlight – subtle gradient underline */
+  .keyword-highlight {
+    font-weight: 600;
+    color: hsl(var(--foreground));
+    background-image: linear-gradient(
+      to right,
+      hsl(var(--foreground) / 0.18),
+      hsl(var(--foreground) / 0.18)
+    );
+    background-size: 100% 2px;
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 1px;
+  }
+
+  /* Timeline dot hover glow */
+  .timeline-dot {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+  }
 }
